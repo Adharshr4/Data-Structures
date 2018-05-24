@@ -1,6 +1,5 @@
 /* To perform some linked list operations in c like insert , delete , append, insert after,delete node,union,intersection,
-find n th node from last,detect loop 
-output after perfroming all operations will be like
+find n th node from last,detect loop ,reverse and reverse in groups of size..
 
 Input:
 5 6
