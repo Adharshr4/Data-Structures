@@ -142,6 +142,10 @@ void findNthFromLast(struct Node * head , int num){
         count++;
         temp=temp->next;
     }
+    if(count < num){
+        printf("Not possible");
+        return;
+    }
     int eleCount = count-num;
     while(traverseCount != eleCount){
         head=head->next;
